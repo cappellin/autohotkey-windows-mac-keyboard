@@ -103,6 +103,9 @@ Lwin & Tab::AltTab
 ; Show source code with cmd + alt + u
 #!u::Send ^u
 
+; Refresh
+#r::Send {F5}
+
 #IfWinActive
 
 ; Launchy with Cmd + Space
